@@ -42,7 +42,9 @@
 }
 
 /* --- Base & Reset --- */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -573,7 +575,8 @@ img {
   width: 100%;
   height: auto;
   display: block;
-  object-fit: contain; /* Completely unconstrained: retains 100% natural aspect ratio */
+  object-fit: contain;
+  /* Completely unconstrained: retains 100% natural aspect ratio */
   transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1), filter 0.3s ease;
 }
 
@@ -1183,8 +1186,13 @@ img {
   transform: translateY(-50%) scale(1.08);
 }
 
-.nav-prev { left: 28px; }
-.nav-next { right: 28px; }
+.nav-prev {
+  left: 28px;
+}
+
+.nav-next {
+  right: 28px;
+}
 
 .lightbox-body.pure-image-body {
   display: flex;
@@ -1410,13 +1418,27 @@ img {
 }
 
 @keyframes toastSlideIn {
-  from { transform: translateY(20px); opacity: 0; }
-  to { transform: translateY(0); opacity: 1; }
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 @keyframes toastFadeOut {
-  from { opacity: 1; transform: translateY(0); }
-  to { opacity: 0; transform: translateY(-10px); }
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  to {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
 }
 
 /* ==========================================================================
@@ -1434,17 +1456,21 @@ img {
     grid-template-columns: 1fr;
     gap: 28px;
   }
+
   .about-grid {
     grid-template-columns: 1fr;
     gap: 40px;
   }
+
   .disciplines-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
   .contact-grid {
     grid-template-columns: 1fr;
     gap: 40px;
   }
+
   .portfolio-grid.grid-3 {
     column-count: 2;
     column-gap: 20px;
@@ -1532,8 +1558,13 @@ img {
     border: 1.5px solid #ffffff;
   }
 
-  .nav-prev { left: 20px; }
-  .nav-next { right: 20px; }
+  .nav-prev {
+    left: 20px;
+  }
+
+  .nav-next {
+    right: 20px;
+  }
 
   .lightbox-img {
     max-width: 95vw;
@@ -1560,7 +1591,7 @@ img {
   }
 
   .hero-title {
-    font-size: clamp(2.3rem, 11vw, 3.8rem);
+    font-size: clamp(1rem, 11vw, 2rem);
     line-height: 1.0;
   }
 
@@ -1670,6 +1701,11 @@ img {
     padding: 4px 10px;
   }
 
-  .nav-prev { left: 12px; }
-  .nav-next { right: 12px; }
+  .nav-prev {
+    left: 12px;
+  }
+
+  .nav-next {
+    right: 12px;
+  }
 }
