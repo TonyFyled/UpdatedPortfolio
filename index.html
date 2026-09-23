@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adedamola Falade — Graphic Designer & Visual Artist</title>
+  <meta name="description"
+    content="Portfolio of Adedamola Falade, a multidisciplinary graphic designer specializing in brand identity, typography, editorial layouts, 3D visuals, and luxury packaging." />
+
+  <!-- Fonts: Syne & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Syne:wght@500;700;800&display=swap"
+    rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Favicon icon (SVG Data URI) -->
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='4' fill='%23000000'/><text x='50%' y='68%' font-family='sans-serif' font-size='56' font-weight='800' fill='white' text-anchor='middle'>AF</text></svg>" />
+</head>
+
+<body class="monochrome-theme">
+
+  <!-- Header / Navigation -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="#hero" class="brand-logo" aria-label="Adedamola Falade Home">
+        <span class="logo-text">AF</span>
+      </a>
+
+      <nav class="site-nav" id="siteNav">
+        <ul class="nav-list">
+          <li><a href="#works" class="nav-link active">Works</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <div class="status-badge" title="Status">
+          <span class="pulse-dot"></span>
+          <span class="status-text">Available for work</span>
+        </div>
+        <a href="#contact" class="btn btn-sm btn-primary">Let's Talk</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+
+        <h1 class="hero-title">
+          <span class="hero-line">Adedamola</span>
+          <span class="hero-line highlight-text">Falade</span>
+        </h1>
+
+        <div class="hero-subgrid">
+          <div class="hero-bio">
+            <p class="lead-text">
+              Graphic Designer & Visual Artist doing <em>a little bit of everything</em>
+            </p>
+          </div>
+        </div>
+
+        <div class="hero-cta-group">
+          <button class="btn btn-secondary" id="copyEmailBtn" data-email="faladedamola05@gmail.com">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+            <span class="btn-text">Copy Email</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Works Section with Fixed 3-Grid System -->
+    <section class="works-section" id="works">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Visual Archive</h2>
+          </div>
+        </div>
+
+        <!-- The Image Grid Container (Fixed 3 Columns - Unconstrained Masonry) -->
+        <div class="portfolio-grid grid-3" id="portfolioGrid">
+          <div class="image-card" data-index="0" role="button" tabindex="0" aria-label="View work 1">
+            <div class="image-inner">
+              <img src="assets/images/PRED.jpg" alt="Adedamola Falade Graphic Design — PRED" class="grid-img"
+                loading="eager" />
+              <div class="image-overlay-glow"></div>
+            </div>
+          </div>
+          <div class="image-card" data-index="1" role="button" tabindex="0" aria-label="View work 2">
+            <div class="image-inner">
+              <img src="assets/images/0a1d12f7a01d18f9c45bc9c2cd4113e6.webp" alt="Adedamola Falade Graphic Design 2"
+                class="grid-img" loading="eager" />
+              <div class="image-overlay-glow"></div>
+            </div>
+          </div>
+          <div class="image-card" data-index="2" role="button" tabindex="0" aria-label="View work 3">
+            <div class="image-inner">
+              <img src="assets/images/Copy%20of%20Pre-IPO%20Stocks%20On-Chain%20Powered%20by%20Injective.png"
+                alt="Adedamola Falade Graphic Design — Pre-IPO Stocks On-Chain" class="grid-img" loading="eager" />
+              <div class="image-overlay-glow"></div>
+            </div>
+          </div>
+          <div class="image-card" data-index="3" role="button" tabindex="0" aria-label="View work 4">
+            <div class="image-inner">
+              <img src="assets/images/Go%20Icognito%20with%20Bungee.jpg"
+                alt="Adedamola Falade Graphic Design — Go Incognito with Bungee" class="grid-img" loading="lazy" />
+              <div class="image-overlay-glow"></div>
+            </div>
+          </div>
+          <div class="image-card" data-index="4" role="button" tabindex="0" aria-label="View work 5">
+            <div class="image-inner">
+              <img src="assets/images/15f349eec95f824f1c998cf8211e7f4f.webp" alt="Adedamola Falade Graphic Design 5"
+                class="grid-img" loading="lazy" />
+              <div class="image-overlay-glow"></div>
+            </div>
+          </div>
+          <div class="image-card" data-index="5" role="button" tabindex="0" aria-label="View work 6">
+            <div class="image-inner">
+              <img src="assets/images/Add%20a%20heading.png" alt="Adedamola Falade Graphic Design Visual 6"
+                class="grid-img" loading="lazy" />
+              <div class="image-overlay-glow"></div>
+            </div>
+          </div>
+          <div class="image-card" data-index="6" role="button" tabindex="0" aria-label="View work 7">
+            <div class="image-inner">
+              <img src="assets/images/PRED%20(1).jpg" alt="Adedamola Falade Graphic Design — PRED Series 1"
+                class="grid-img" loading="lazy" />
+              <div class="image-overlay-glow"></div>
+            </div>
+          </div>
+          <div class="image-card" data-index="7" role="button" tabindex="0" aria-label="View work 8">
+            <div class="image-inner">
+              <img src="assets/images/3bb67be9956c009fc95c45ef5968286b.webp" alt="Adedamola Falade Graphic Design 8"
+                class="grid-img" loading="lazy" />
+              <div class="image-overlay-glow"></div>
+            </div>
+          </div>
+          <div class="image-card" data-index="8" role="button" tabindex="0" aria-label="View work 9">
+            <div class="image-inner">
+              <img src="assets/images/The%20Market%20is%20always%20open.png"
+                alt="Adedamola Falade Graphic Design — The Market is Always Open" class="grid-img" loading="lazy" />
+              <div class="image-overlay-glow"></div>
+            </div>
+          </div>
+          <div class="image-card" data-index="9" role="button" tabindex="0" aria-label="View work 10">
+            <div class="image-inner">
+              <img src="assets/images/Go%20Icognito%20with%20Bungee%20(1).jpg"
+                alt="Adedamola Falade Graphic Design — Bungee Series 1" class="grid-img" loading="lazy" />
+              <div class="image-overlay-glow"></div>
+            </div>
+          </div>
+          <div class="image-card" data-index="10" role="button" tabindex="0" aria-label="View work 11">
+            <div class="image-inner">
+              <img src="assets/images/asian.png" alt="Adedamola Falade Graphic Design — Asian Concept" class="grid-img"
+                loading="lazy" />
+              <div class="image-overlay-glow"></div>
+            </div>
+          </div>
+          <!-- <div class="image-card" data-index="11" role="button" tabindex="0" aria-label="View work 12">
+            <div class="image-inner">
+              <img src="assets/images/464f0dab732b40ea0161d8506bec6087.webp" alt="Adedamola Falade Graphic Design 12" class="grid-img" loading="lazy" />
+              <div class="image-overlay-glow"></div>
+            </div>
+        </div>
+        <div class="image-card" data-index="12" role="button" tabindex="0" aria-label="View work 13">
+          <div class="image-inner">
+            <img src="assets/images/Bitcoin%20Trading,%20SIMPLIFIED.png"
+              alt="Adedamola Falade Graphic Design — Bitcoin Trading Simplified" class="grid-img" loading="lazy" />
+            <div class="image-overlay-glow"></div>
+          </div>
+        </div>
+        <div class="image-card" data-index="13" role="button" tabindex="0" aria-label="View work 14">
+          <div class="image-inner">
+            <img src="assets/images/PRED%20(2).jpg" alt="Adedamola Falade Graphic Design — PRED Series 2"
+              class="grid-img" loading="lazy" />
+            <div class="image-overlay-glow"></div>
+          </div>
+        </div>
+        <div class="image-card" data-index="14" role="button" tabindex="0" aria-label="View work 15">
+          <div class="image-inner">
+            <img src="assets/images/653cc60ceb3fbe1c82532377059fd81f.webp" alt="Adedamola Falade Graphic Design 15"
+              class="grid-img" loading="lazy" />
+            <div class="image-overlay-glow"></div>
+          </div>
+        </div>
+        <div class="image-card" data-index="15" role="button" tabindex="0" aria-label="View work 16">
+          <div class="image-inner">
+            <img src="assets/images/Your%20paragraph%20text.png" alt="Adedamola Falade Graphic Design Composition 16"
+              class="grid-img" loading="lazy" />
+            <div class="image-overlay-glow"></div>
+          </div>
+        </div>
+        <div class="image-card" data-index="16" role="button" tabindex="0" aria-label="View work 17">
+          <div class="image-inner">
+            <img src="assets/images/Go%20Icognito%20with%20Bungee%20(2).jpg"
+              alt="Adedamola Falade Graphic Design — Bungee Series 2" class="grid-img" loading="lazy" />
+            <div class="image-overlay-glow"></div>
+          </div>
+        </div>
+        <div class="image-card" data-index="17" role="button" tabindex="0" aria-label="View work 18">
+          <div class="image-inner">
+            <img src="assets/images/73690696598054f2ec14acbc6142166c.webp" alt="Adedamola Falade Graphic Design 18"
+              class="grid-img" loading="lazy" />
+            <div class="image-overlay-glow"></div>
+          </div>
+        </div>
+        <div class="image-card" data-index="18" role="button" tabindex="0" aria-label="View work 19">
+          <div class="image-inner">
+            <img src="assets/images/939bf66ca2252242c469cdfa9e6a5192.webp" alt="Adedamola Falade Graphic Design 19"
+              class="grid-img" loading="lazy" />
+            <div class="image-overlay-glow"></div>
+          </div>
+        </div>
+        <div class="image-card" data-index="19" role="button" tabindex="0" aria-label="View work 20">
+          <div class="image-inner">
+            <img src="assets/images/94c866b6fa7f1c31d21fd8a0011442fb.webp" alt="Adedamola Falade Graphic Design 20"
+              class="grid-img" loading="lazy" />
+            <div class="image-overlay-glow"></div>
+          </div>
+        </div>
+        <div class="image-card" data-index="20" role="button" tabindex="0" aria-label="View work 21">
+          <div class="image-inner">
+            <img src="assets/images/fb3c87ea122cc5a06303cec0fd9e82fd.webp" alt="Adedamola Falade Graphic Design 21"
+              class="grid-img" loading="lazy" />
+            <div class="image-overlay-glow"></div>
+          </div>
+        </div> 
+          <div class="image-card" data-index="21" role="button" tabindex="0" aria-label="View work 22">
+            <div class="image-inner">
+              <img src="assets/images/still-e96b060a86d4601a16445e0a4283d39a.webp"
+                alt="Adedamola Falade Graphic Design 22" class="grid-img" loading="lazy" />
+              <div class="image-overlay-glow"></div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="contact-card">
+          <div class="contact-header">
+            <span class="section-badge">Get In Touch</span>
+            <h2 class="contact-title">Have a project in mind? <br /><span class="highlight-text">Let's create
+                something iconic.</span></h2>
+            <p class="contact-subtitle">Currently accepting freelance inquiries</p>
+          </div>
+
+          <div class="contact-grid">
+            <div class="contact-info">
+              <div class="info-block">
+                <span class="info-label">Direct Inquiries</span>
+                <a href="mailto:adedamolafalade.design@gmail.com" class="info-link">faladedamola05@gmail.com</a>
+              </div>
+              <div class="info-block">
+                <span class="info-label">Social & Networks</span>
+                <div class="social-links">
+                  <a href="https://dribbble.com/adedamola-falade" target="_blank" rel="noopener noreferrer"
+                    class="social-btn">Dribbble</a>
+                  <a href="https://x.com/heiscosmo" target="_blank" rel="noopener noreferrer" class="social-btn">X /
+                    Twitter</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <p class="copyright">© <span id="currentYear">2026</span> <strong>Adedamola Falade</strong>. All rights
+          reserved.</p>
+        <p class="designer-note">Designed & Built with 3-Grid Architecture.</p>
+      </div>
+      <div class="footer-right">
+        <a href="#hero" class="back-to-top" id="backToTop" aria-label="Back to top">
+          <span>Back to top</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="12" y1="19" x2="12" y2="5"></line>
+            <polyline points="5 12 12 5 19 12"></polyline>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox / Fullscreen Pure Image Viewer Modal (Bold Display) -->
+  <div class="lightbox-modal" id="lightboxModal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+    <div class="lightbox-wrapper pure-image-wrapper">
+      <div class="lightbox-top-bar">
+        <div class="lightbox-badge-group">
+          <span class="lightbox-counter" id="lightboxCounter">WORK 01 / 22</span>
+          <span class="lightbox-title-badge">BOLD FULL VIEW</span>
+        </div>
+        <div class="lightbox-top-actions">
+          <button class="lightbox-btn" id="lightboxZoomBtn" title="Toggle Zoom (Magnify)" aria-label="Toggle Zoom">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              <line x1="11" y1="8" x2="11" y2="14"></line>
+              <line x1="8" y1="11" x2="14" y2="11"></line>
+            </svg>
+          </button>
+          <button class="lightbox-close lightbox-btn" id="lightboxClose" aria-label="Close modal">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <button class="lightbox-nav nav-prev" id="lightboxPrev" aria-label="Previous image">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polyline points="15 18 9 12 15 6"></polyline>
+        </svg>
+      </button>
+      <button class="lightbox-nav nav-next" id="lightboxNext" aria-label="Next image">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </button>
+
+      <div class="lightbox-body pure-image-body">
+        <div class="lightbox-media-container" id="lightboxMediaContainer">
+          <img src="" alt="" id="lightboxImg" class="lightbox-img" title="Click to zoom in / out" />
+        </div>
+      </div>
+
+      <div class="lightbox-bottom-bar">
+        <div class="lightbox-hint">
+          <strong>CLICK IMAGE TO ZOOM</strong> &bull; ESC TO CLOSE &bull; &larr; &rarr; TO NAVIGATE
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast-container" id="toastContainer" aria-live="polite"></div>
+
+  <!-- Scripts -->
+  <script src="js/projects-data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
